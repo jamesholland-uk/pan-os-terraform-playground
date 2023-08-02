@@ -7,8 +7,3 @@ terraform {
     }
   }
 }
-
-provider "panos" {
-  hostname = var.panos_hostname
-  api_key  = var.panos_api_key
-}
