@@ -9,6 +9,6 @@ terraform {
 }
 
 provider "panos" {
-  hostname = var.hostname
-  api_key  = var.api_key
+  hostname = var.panos_hostname
+  api_key  = var.panos_api_key
 }

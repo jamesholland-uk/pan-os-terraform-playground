@@ -1,9 +1,9 @@
-variable "hostname" {
+variable "panos_hostname" {
   type    = string
   default = ""
 }
 
-variable "api_key" {
+variable "panos_api_key" {
   type      = string
   default   = ""
   sensitive = true
